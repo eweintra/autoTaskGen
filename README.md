@@ -6,6 +6,8 @@ How It Works
 
 When an email is about to be sent (ItemSend event), the script checks if the item is a mail item. If so, it proceeds to analyze the email's subject and body.
 
+Example: the following string in the mail body: "AR Erez to write README description by WW13.Tueadsy" will automatically set new task in TODO list with Subject: AR Erez to write README descriptionbt ww13.Tuesday, with task body of the original mail sent (including whatever thready), and task date of March 26.
+
 Key Features
 
 Identification of AR Items: The script searches for occurrences of "AR" in both the subject and body of the email to identify Action Required items.
